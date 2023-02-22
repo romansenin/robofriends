@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'SEGA LOGO FONT';
+  src: url('SEGA.woff2') format('woff2'),
+    url('SEGA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1 {
+  font-family: 'SEGA LOGO FONT';
+  font-weight: 200;
+  color: #0ccac4;
+}
+
+.card-container {
+  width: 280px;
+  height: 380px;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+p {
+  width: 90%;
+  margin: 0 auto;
+}
